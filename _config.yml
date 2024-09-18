@@ -1,5 +1,5 @@
 # Site settings
-title: Vitor Lécio
+title: Vitor Lécio L. Fontanella 
 description: Portfolio Website in construction...
 
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -7,8 +7,8 @@ url: "https://vitorlecio.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: Vitor 
-  github: vitorlecio.github.io
-  linkedin: vitorlecio.linkedin.com
+  github: vitorlecio
+  linkedin: www.linkedin.com/in/vitor-fontanella
   email: example@email.com
 
 
