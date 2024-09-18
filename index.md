@@ -6,7 +6,7 @@ sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/profile.jpg' | prepend: site.baseurl }}" id="about-img">
+<img src="{{ '/assets/img/profile.jpeg' | prepend: site.baseurl }}" id="about-img">
 
 <div id="describe-text">
 	<p>Data Science Portfolio in construction...</p>
