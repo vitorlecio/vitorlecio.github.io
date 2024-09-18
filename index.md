@@ -1,6 +1,6 @@
 ---
 layout: page
-#title: Vitor Lécio L. Fontanella 
+title: Data Science Portfolio 
 #subtitle: My name is Vitor Lécio
 sitemap:
   priority: 0.9
