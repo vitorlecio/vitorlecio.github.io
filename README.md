@@ -1,8 +1,37 @@
-# vitorlecio.github.com
-Website in construction
+# Pudhina
+A simple, minimal [Jekyll](jekyllrb.com) theme for a personal web page and blog, focusing on white space and readability
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur varius ipsum sit amet gravida. Vivamus gravida leo a nisi aliquam commodo. In metus enim, lobortis ut elit eget, lobortis rhoncus purus. Proin congue tincidunt convallis. Aliquam odio augue, mattis vel diam a, iaculis suscipit sem. Donec a ipsum quam. Praesent rhoncus molestie nisi. Maecenas aliquam lacus sit amet enim faucibus, at pulvinar quam laoreet.
+[Click here](https://knhash.github.io/Pudhina/) to see the theme in action. Note that the download PDF button redirects to 404 due to lack of the file. This is by design, to demonstrate the Glitch effect therein.
 
-Integer nec elit nisi. Maecenas at diam eget nisi dignissim fermentum. Etiam in efficitur felis. Praesent rutrum non quam non bibendum. Ut vitae eros luctus, pretium ligula sed, scelerisque nulla. Maecenas nec venenatis turpis. Aliquam nec nunc sed sapien posuere fermentum eget sed lectus. Quisque semper, dui non pretium sagittis, ipsum magna accumsan mauris, et blandit magna nulla pulvinar justo. Nulla ut felis quis nulla feugiat sagittis. Ut fermentum, lorem non vulputate maximus, diam ligula tincidunt nulla, non lobortis lacus odio et arcu.
+## Screenshots
 
-Sed posuere magna bibendum pretium sodales. Donec porttitor tincidunt lectus, vel aliquet metus mattis fermentum. Integer turpis enim, ornare congue lobortis non, dignissim in est. Nam tincidunt nisi non finibus ornare. Vivamus rhoncus, tellus non maximus commodo, libero felis ultrices elit, a congue nisl turpis et justo. Nam convallis laoreet ligula vel scelerisque. Quisque mollis pharetra iaculis.
+![Home](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/home.png?raw=true "Home") 
+![Blog](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/blog.png?raw=true "Blog") 
+![Resume](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/resume.png?raw=true "Resume") 
+![Post](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/post.png?raw=true "Post") 
+![404](https://raw.githubusercontent.com/Knhash/Pudhina/master/screenshots/404.png?raw=true "404") 
+
+## Features
+- Simple, minimal and clean
+- Blog posts categorised
+- Responsive
+- Syntax Highlighter (using [highlight.js](https://highlightjs.org/)).
+- Font-Awesome Icons.
+- Glitchy 404 page
+
+## How to use it
+- Start by cloning the repository, then check the `_config.yml` file and change it accordingly. Note that the `title` property is what will be displayed as logo.
+- Execute `jekyll serve` and head to [localhost:4000](http://127.0.0.1:4000) to see the results locally.
+
+## Customization
+- Change main picture and icon in `/assets/img/pudhina`.  
+- Change main details regarding site in `_config.yml`.
+- Configure `index.md` for the main page, `blog.md` for Blog listing and `resume.md` for Resume page.
+- CSS properties can be found in `/assets/css/main.css`.
+- New posts to be created in the `/_posts/` directory, follow the naming convention used in samples. Front-matter requires title, subtitle, categories and date.
+
+## Credits
+Inspired by the theme [Daktilo](https://github.com/kronik3r/daktilo)
+
+## License
+The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
