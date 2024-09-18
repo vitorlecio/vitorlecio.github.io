@@ -9,5 +9,5 @@ sitemap:
 <img src="{{ '/assets/img/profile.jpeg' | prepend: site.baseurl }}" id="about-img">
 
 <div id="describe-text">
-	<p>Data Science Portfolio in construction...</p>
+	<p> Data Science Portfolio in construction...</p>
 </div>
