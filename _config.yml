@@ -1,16 +1,15 @@
 # Site settings
-title: Pudhina
-description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+title: Vitor Lécio
+description: Portfolio Website in construction...
 
-baseurl: "/Pudhina" # the subpath of your site, e.g. /blog/
-url: "https://knhash.github.io" # the base hostname & protocol for your site
+baseurl: "/vitorlecio" # the subpath of your site, e.g. /blog/
+url: "https://vitorlecio.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: Pudhina
+  fullname: Vitor 
   github: github
-  linkedin: linkedin
-  email: example@email.com
+  linkedin: vitorlecio.linkedin.com
+  #email: example@email.com
 
 
 # Syntax highlighting
