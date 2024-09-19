@@ -20,7 +20,8 @@ layout: page
 {% for post in category.items %}
 <li class="post-teaser">
 <a href="{{ post.url | prepend: site.baseurl }}">
-<img src="post-teaser__title">{{post.logo}}>
+<img src="{{ {post.logo} | prepend: site.baseurl }}" id="about-img">
+<!--img src="post-teaser__title">{{post.logo}}-->
 <span class="post-teaser__title">{{ post.title }}</span>
 <!--span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span -->
 </a>
