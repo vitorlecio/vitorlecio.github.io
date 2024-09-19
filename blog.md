@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-subtitle: Select ramblings of Pudhina
+#title: Blog
+#subtitle: Select ramblings of Pudhina
 ---
 
 <div>
@@ -20,7 +20,7 @@ subtitle: Select ramblings of Pudhina
 {% for post in category.items %}
 <li class="post-teaser">
 <a href="{{ post.url | prepend: site.baseurl }}">
-<img src="post-teaser__title">{{post.logo}}
+<img src="post-teaser__title">{{post.logo}}>
 <span class="post-teaser__title">{{ post.title }}</span>
 <!--span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span -->
 </a>
