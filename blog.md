@@ -20,11 +20,16 @@ layout: page
 {% for post in category.items %}
 <li class="post-teaser">
 <a href="{{ post.url | prepend: site.baseurl }}">
-<img src="{{ '/assets/img/profile.jpeg' | prepend: site.baseurl }}" id="about-img">
+
+<div style="display: flex;"> 
+<div style="flex: 1; background-color: lightblue;"><img src="{{ '/assets/img/profile.jpeg' | prepend: site.baseurl }}" id="about-img"></div>
 <!--img src="post-teaser__title">{{post.logo}}-->
-<span class="post-teaser__title">{{ post.title }}</span>
+<div style="flex: 1; background-color: lightgreen;"><span class="post-teaser__title">{{ post.title }}</span></div> 
+</div>
 <!--span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span -->
+
 </a>
+
 </li>
 {% endfor %}
 </ul>
