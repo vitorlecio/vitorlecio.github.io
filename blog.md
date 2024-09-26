@@ -5,7 +5,7 @@ layout: page
 ---
 
 <div>
-{% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
+<!-- {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
 <h4 class="post-teaser__month">
 <strong>
@@ -15,15 +15,15 @@ layout: page
 {{ Print }} 
 {% endif %}
 </strong>
-</h4>
+</h4> -->
 <ul class="list-posts">
-{% for post in category.items %}
+{% for post in site.posts %}
 <li class="post-teaser">
 <a href="{{ post.url | prepend: site.baseurl }}">
        <div style="position: relative; width: 100%; max-width: 400px;">
           <!-- Post-specific image -->
           <img src="{{ post.image | prepend: site.baseurl }}" id="post-img" style="width: 100%; height: auto;">
-          <!-- Title overlay -->
+        git   <!-- Title overlay -->
           <div style="position: absolute; bottom: 0; background: rgba(0, 0, 0, 0.5); color: white; width: 100%; text-align: center;">
             <span class="post-teaser__title">{{ post.title }}</span>
             </div>
