@@ -5,7 +5,7 @@ layout: page
 sitemap:
   priority: 0.9
 ---
-<div id="describe-text" style="display: flex; align-items: center; gap: 20px;">
+<div id="describe-text" style="display: flex; align-items: flex-start; gap: 20px;">
 <div class='image'>
 <img src="{{ '/assets/img/profile.jpeg' | prepend: site.baseurl }}" id="about-img" style="max-width: 200px; height: auto;">
 </div>
