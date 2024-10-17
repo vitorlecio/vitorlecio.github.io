@@ -16,6 +16,8 @@ I am an Data Scientist looking for transition from Academics to Industry. I grad
 
 <p markdown="1"> Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim [University of Campinas](https://www.unicamp.br/unicamp/). Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
 
-<img src="{{ '/assets/img/post1.png' | prepend: site.baseurl }}" id="about-img" 
+<div class='image'>
+<img src="{{ '/assets/img/post1.png' | prepend: site.baseurl }}" id="post" style="max-width: 200px; height: auto;">
+</div>
 </div>
 </div>
