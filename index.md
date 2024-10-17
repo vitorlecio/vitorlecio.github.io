@@ -17,8 +17,5 @@ I am an Data Scientist with experience in educational Natural Language Processin
 
 <p markdown="1"> I have make </p>
 
-<div class='image'>
-<img src="{{ '/assets/img/post1.png' | prepend: site.baseurl }}" id="post" style="max-width: 200px; height: auto;">
-</div>
 </div>
 </div>
