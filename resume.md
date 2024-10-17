@@ -8,6 +8,14 @@ subtitle: An awesome person
 <br>
 
 ### SKILLS
+-Python
+-Python Lybraries: 
+    NumPy, Pandas, SciKit-Learn, MatplotLib, Pytorch, Transformers 
+-Git and GitHub
+-Poetry, Streamlit, 
+-Statistics
+-
+ 
 ``` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed porttitor mi. In bibendum tortor nec massa finibus, id ultricies urna pulvinar. Sed congue blandit est non sagittis. In eget lobortis ipsum. Quisque id nisl nisl. Donec nec dapibus diam. Donec vel euismod nisi.  ```  
 
 ### PROJECTS
