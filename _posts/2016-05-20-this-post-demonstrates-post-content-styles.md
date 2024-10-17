@@ -6,7 +6,7 @@ date:   2016-05-20 21:21:21 +0530
 categories: junk
 author: "Bart Simpson"
 meta: "Springfield"
-image: "/assets/img/post1.png"
+image: /assets/img/post1.png
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
