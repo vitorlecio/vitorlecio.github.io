@@ -1,13 +1,18 @@
 ---
-title: "website"
+title: "Vitor Lécio"
+subtitle: Data Scientist and AI specialist 
 listing:
   contents: posts
-  feed: true
   sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+  type: grid           # Transforma em quadros (cards)
+  grid-columns: 3      # Define exatamente duas colunas
+  categories: false    # Remove a lista de categorias da direita
+  fields: [image, title, description, categories] 
+  
+  # Remove os textos padrão de data e autor se sobrarem
+  field-display-names:
+    author: ""
+    date: ""
 page-layout: full
 title-block-banner: true
 ---

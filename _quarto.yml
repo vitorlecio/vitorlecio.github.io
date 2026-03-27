@@ -3,37 +3,29 @@ project:
   output-dir: _site
 
 website:
-  title: "Vitor Lécio - Data Scientist NLP & Data Science"
+  title: "Vitor Lecio" # Nome que aparece na barra de navegação
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: Sobre
-  sidebar:
-    style: "floating"
-    contents:
-      - section: "Categorias"
-        contents:
-          - text: "Natural Language Processing"
-            href: nlp.qmd
-          - text: "Engenharia de Dados"
-            href: data-eng.qmd
+        text: About
 
 format:
   html:
-    theme: cosmo
+    theme: lux        # 'lux', 'quartz' ou 'vapor' oferecem visuais bem distintos
     code-fold: true
-    toc: true
-    number-sections: true
+    toc: false        # Remove a barra da direita (Table of Contents)
+    number-sections: false
 
 listing:
   contents: posts
   sort: "date desc"
-  type: default
-  categories: true        # Habilita a barra lateral de categorias
-  sort-ui: true
-  filter-ui: true
+  type: grid          # Muda de lista simples para cartões (cards)
+  categories: false   # Garante que as categorias não apareçam na direita
+  sort-ui: false
+  filter-ui: false
 
 execute:
   freeze: auto
+
