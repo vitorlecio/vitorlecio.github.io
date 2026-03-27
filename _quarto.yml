@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Vitor Lécio - Data Scientist NLP & Data Science"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: Sobre
+  sidebar:
+    style: "floating"
+    contents:
+      - section: "Categorias"
+        contents:
+          - text: "Natural Language Processing"
+            href: nlp.qmd
+          - text: "Engenharia de Dados"
+            href: data-eng.qmd
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    toc: true
+    number-sections: true
+
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true        # Habilita a barra lateral de categorias
+  sort-ui: true
+  filter-ui: true
+
+execute:
+  freeze: auto
